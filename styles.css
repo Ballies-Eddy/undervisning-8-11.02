@@ -1,3 +1,7 @@
+body{
+  background-color: aqua;
+}
+
 /* CSS VARIABLES */
 :root {
   /* Colors */
@@ -123,6 +127,10 @@
   gap: 20px;
 }
 
+.list-style{
+  list-style: none;
+}
+
 /* HEADER */
 header {
   display: flex;
@@ -223,4 +231,8 @@ section {
 footer {
   display: flex;
   justify-content: center;
+}
+
+body{
+  background-color: green;
 }
